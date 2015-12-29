@@ -1,0 +1,23 @@
+{
+  "name": "home",
+  "version": "0.0.1",
+  "authors": [
+    "Navgeet Agrawal <navgeet.agrawal@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": [
+    "dist/module.concat.js"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "angular": "1.4.1",
+    "angular-ui-router": "~0.2.15"
+  }
+}
